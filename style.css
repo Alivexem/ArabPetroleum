@@ -1,0 +1,567 @@
+@media screen and (max-width: 650px) {
+
+body{
+    padding: 0;
+    margin: 0;
+    background-color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+.first{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #08172E;
+    padding: 15px;
+    height: 40px;
+    margin-bottom: 25px;
+}
+
+.logop{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+.group{
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+#menu{
+    font-size: 26px;
+    margin: 20px 0 0 0;
+    padding: 10px 25px 10px 10px;
+}
+.writeup{
+    position: relative;
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+    width: 300px;
+}
+
+p{
+    font-size: 16px;
+}
+
+li{
+     font-size: 17px;
+     margin: 7px 0 7px 0;
+}
+
+.butDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+button{
+    width: 120px;
+    height: 45px;
+    color: white;
+    
+    border-radius: 7px;
+    font-weight: bold;
+    font-size: 16px;
+    border: none;
+}
+.apply{
+    background-color: blue;
+}
+
+.learn{
+    background-color: #FF6E2B;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+footer{
+    background-color: #08172E;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    padding: 75px 10px 35px 10px;
+}
+footer p{
+    color: white;
+    font-size: 15px;
+}
+footer h2{
+    color: white;
+    font-family: 'Libre Baskerville', serif;
+}
+footer h3{
+    color: #FF6E2B;
+    font-family: 'Libre Baskerville', serif;
+}
+
+.footer{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+    @keyframes fadeOut {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
+    }
+#image{
+    animation: fadeOut 1s ease-in-out;        
+}
+button:active{
+    background-color: gray;
+}
+
+h2{
+    font-family: 'Libre Baskerville', serif;
+}
+h1{
+    font-family: 'Libre Baskerville', serif;
+}
+h3{
+    font-family: 'Libre Baskerville', serif;
+}
+
+
+
+
+
+
+
+
+
+.container {
+    width: 80%;
+    margin: 50px auto;
+    background-color: #08172E;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.container h2 {
+    text-align: center;
+    color: white;
+   
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 8px;
+    color: white;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #08172E;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+input[type="date"]{
+    margin-bottom: 20px;
+}
+
+input[type="submit"] {
+    background-color: #FF974D;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: gray;
+}
+
+
+
+
+
+
+
+
+    #menuwrap {
+      display: none;
+      flex-direction: column;
+      background-color: gray;
+      padding: 10px;
+      overflow: hidden;
+      max-height: 0;
+      
+      margin-bottom: 25px;
+    }
+
+    .clicked {
+      display: flex;
+      max-height: 510px;
+      animation: slideDown 1.5s ease-in-out forwards;
+    }
+    .notClicked {
+
+      max-height: 0;
+      animation: slideup 1.5s ease-in-out forwards;
+      display: none;
+    }
+    @keyframes slideup {
+      from {
+        max-height: 510px;
+      }
+      to {
+        max-height: 0;
+      }
+    }
+    @keyframes slideDown {
+      from {
+        max-height: 0;
+      }
+      to {
+        max-height: 510px;
+      }
+    }
+    #menuwrap p{
+      font-size: 20px;
+      margin-left: 13px;
+    }
+    
+    
+    
+    
+    
+    
+        #divhead{
+        background-color: #36454F;
+
+        padding: 5px;
+
+    }
+    #divhead p{
+        color: white;
+        font-size: 19px;
+        text-align: center;
+    }
+    #menu:active{
+        color: orange;
+       
+    }
+    a{
+        text-decoration: none;
+        color: white;
+    }
+     .join{
+       color: #FF6E2B;
+       margin-top: -145px;
+       text-align: center;
+       padding: 10px;
+       text-shadow: 0 0 8px black;
+   }
+}
+
+
+@media screen and (min-width: 650px) {
+    body{
+    padding: 0;
+    margin: 0;
+    background-color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+.first{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #08172E;
+    padding: 15px;
+    height: 40px;
+    margin-bottom: 25px;
+}
+
+.logop{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+.group{
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+#menu{
+    font-size: 26px;
+    margin: 20px 0 0 0;
+    padding: 10px 25px 10px 10px;
+}
+.writeup{
+    position: relative;
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+    width: 300px;
+}
+
+p{
+    font-size: 16px;
+}
+
+li{
+     font-size: 17px;
+     margin: 7px 0 7px 0;
+}
+
+.butDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+button{
+    width: 120px;
+    height: 45px;
+    color: white;
+    
+    border-radius: 7px;
+    font-weight: bold;
+    font-size: 16px;
+    border: none;
+}
+.apply{
+    background-color: blue;
+}
+
+.learn{
+    background-color: #FF6E2B;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+footer{
+    background-color: #08172E;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    padding: 75px 10px 35px 10px;
+}
+footer p{
+    color: white;
+    font-size: 15px;
+}
+footer h2{
+    color: white;
+    font-family: 'Libre Baskerville', serif;
+}
+footer h3{
+    color: #FF6E2B;
+    font-family: 'Libre Baskerville', serif;
+}
+
+.footer{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+    @keyframes fadeOut {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
+    }
+#image{
+    animation: fadeOut 1s ease-in-out;        
+}
+button:active{
+    background-color: gray;
+}
+
+h2{
+    font-family: 'Libre Baskerville', serif;
+}
+h1{
+    font-family: 'Libre Baskerville', serif;
+}
+h3{
+    font-family: 'Libre Baskerville', serif;
+}
+
+
+
+
+
+
+
+
+
+.container {
+    width: 80%;
+    margin: 50px auto;
+    background-color: #08172E;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.container h2 {
+    text-align: center;
+    color: white;
+   
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 8px;
+    color: white;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #08172E;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+input[type="date"]{
+    margin-bottom: 20px;
+}
+
+input[type="submit"] {
+    background-color: #FF974D;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: gray;
+}
+
+
+
+
+
+
+
+
+    #menuwrap {
+      display: none;
+      flex-direction: column;
+      background-color: gray;
+      padding: 10px;
+      overflow: hidden;
+      max-height: 0;
+      
+      margin-bottom: 25px;
+    }
+
+    .clicked {
+      display: flex;
+      max-height: 510px;
+      animation: slideDown 1.5s ease-in-out forwards;
+    }
+    .notClicked {
+
+      max-height: 0;
+      animation: slideup 1.5s ease-in-out forwards;
+      display: none;
+    }
+    @keyframes slideup {
+      from {
+        max-height: 510px;
+      }
+      to {
+        max-height: 0;
+      }
+    }
+    @keyframes slideDown {
+      from {
+        max-height: 0;
+      }
+      to {
+        max-height: 510px;
+      }
+    }
+    #menuwrap p{
+      font-size: 20px;
+      margin-left: 13px;
+    }
+    
+    
+    
+    
+    
+    
+        #divhead{
+        background-color: #36454F;
+
+        padding: 5px;
+
+    }
+    #divhead p{
+        color: white;
+        font-size: 19px;
+        text-align: center;
+    }
+    #menu:active{
+        color: orange;
+       
+    }
+    a{
+        text-decoration: none;
+        color: white;
+    }
+   .join{
+       color: #FF6E2B;
+       margin-top: -70px;
+       text-align: center;
+       padding: 10px;
+       text-shadow: 0 0 8px black;
+   }
+   #newImage{
+       height: 340px;
+   }
+   #image{
+       height: 445px;
+   }
+}
