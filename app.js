@@ -12,7 +12,7 @@ setInterval(() => {
     // Fade in effect using opacity transition
     setTimeout(() => {
         image.style.opacity = 1;
-    }, 100); // Adjust the duration of the fade-in effect as needed
+    }, 1300); // Adjust the duration of the fade-in effect as needed
 
     index = (index + 1) % array.length;
 }, 5500);
