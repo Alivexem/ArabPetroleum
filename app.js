@@ -5,16 +5,10 @@ let array = ["third.jpg", "fourth.jpg", "first.jpg"];
 let index = 0;
 
 setInterval(() => {
-    let image = document.getElementById("image");
-    image.style.opacity = 0; // Start with opacity 0
-    image.setAttribute("src", array[index]);
-
-    // Fade in effect using opacity transition
-    setTimeout(() => {
+    let image = document.getElementById("image");    
+        image.setAttribute("src", array[index]);
         image.style.opacity = 1;
-    }, 1300); // Adjust the duration of the fade-in effect as needed
-
-    index = (index + 1) % array.length;
+        index = (index + 1) % array.length;   
 }, 5500);
 
 let button = document.querySelector(".learn")
